@@ -192,7 +192,7 @@ Autonomous Vehicle/
 │   └── uno_low_level_control/  # PID speed control + servo (Arduino Uno)
 ├── hardware/                   # 3D models of hardware modifications
 ├── media/                      # Demo videos and images
-├── ros_ws/
+├── ros/
 │   └── build/
 │   └── devel/
 │   └── src/
