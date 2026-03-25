@@ -187,10 +187,11 @@ Simulation-driven development is the industry standard in autonomous systems —
 
 ```
 Autonomous Vehicle/
-├── hardware/ # 3D models of hardware modifications
 ├── arduino/
 │   ├── nano_sensor_node/       # IMU + encoder reading (Arduino Nano)
 │   └── uno_low_level_control/  # PID speed control + servo (Arduino Uno)
+├── hardware/                   # 3D models of hardware modifications
+├── media/                      # Demo videos and images
 ├── ros_ws/
 │   └── build/
 │   └── devel/
@@ -199,8 +200,7 @@ Autonomous Vehicle/
 │       ├── localization/       # Odometry + IMU fusion
 │       ├── navigation/         # Path planning & waypoint management
 │       ├── path_planning/      # Pure Pursuit controller
-├── simulation/ # ROS + Gazebo files
-├── media/                      # Demo videos and images
+├── simulation/                 # ROS + Gazebo files
 └── README.md
 ```
 
